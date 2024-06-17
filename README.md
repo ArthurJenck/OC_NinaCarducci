@@ -3,7 +3,12 @@
 ## Débuggez et optimisez un site de photographe
 
 Rendu du projet n°4 de la formation Développeur Web d'OpenClassrooms : Débuggez et optimisez un site de photographe.  
-Base de code forked fournie par OpenClassrooms disponible sur la branche intial-code.
+Base de code forked fournie par OpenClassrooms disponible sur la branche initial-code.
+
+### Aperçu hébergé
+
+Hébergement sur GitHub Pages :  
+https://arthurjenck.github.io/OC_NinaCarducci/
 
 ### Dates du projet
 
