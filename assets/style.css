@@ -84,11 +84,12 @@ body {
 	font-size: 30px;
 }
 
-.about-me__introduction {
+#about-me .about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
 }
 
 #about-me p {
@@ -157,6 +158,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2.5rem;
 
 }
 
@@ -200,6 +202,12 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+}
+
+.service__price strong {
+	font-size: 1.5rem;
+	font-weight: normal;
+	display: block;
 }
 
 #contact {
