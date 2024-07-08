@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 body {
     max-width: 1920px;
     margin: auto;
 }
 
 * {
-    font-family: "Inter";
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
 }
 
@@ -42,6 +44,15 @@ body {
     height: 20px;
 }
 
+.carousel {
+    min-height: 41vw;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
 #about {
     display: flex;
     background-color: #f6d2b8;
@@ -69,6 +80,8 @@ body {
 
 .picture img {
     width: 100%;
+    min-width: 100%;
+    height: 100%;
 }
 
 #about-me {
@@ -86,7 +99,7 @@ body {
 
 #about-me .about-me__introduction,
 #about-me .about-me__heading {
-    font-family: "Spectral";
+    font-family: "Spectral", "Times New Roman", Times, serif;
     font-weight: 800;
     font-style: italic;
     width: 60%;
@@ -150,7 +163,7 @@ body {
 }
 
 .quote {
-    font-family: "Spectral";
+    font-family: "Spectral", "Times New Roman", Times, serif;
     font-style: italic;
     width: 70%;
     margin: auto;
@@ -158,14 +171,14 @@ body {
 }
 
 .quote__text {
-    font-family: Spectral;
+    font-family: "Spectral", "Times New Roman", Times, serif;
     font-style: italic;
     font-weight: 300;
     font-size: 2.5rem;
 }
 
 .quote__author {
-    font-family: Spectral;
+    font-family: "Spectral", "Times New Roman", Times, serif;
     font-weight: 800;
     font-size: 22px;
 }
