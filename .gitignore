@@ -1,2 +1,7 @@
 .idea
 .DS_Store
+
+assets/style.css
+assets/scripts.js
+assets/maugallery.js
+assets/bootstrap/bootstrap.css
